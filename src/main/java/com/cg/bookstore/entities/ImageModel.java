@@ -16,7 +16,6 @@ import javax.persistence.*;
 @ToString
 public class ImageModel {
     public ImageModel() {
-		super();
 	}
 
 	@Id
