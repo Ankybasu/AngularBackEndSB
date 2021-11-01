@@ -15,9 +15,6 @@ import javax.persistence.*;
 @NoArgsConstructor
 @ToString
 public class ImageModel {
-    public ImageModel() {
-	}
-
 	@Id
     @Column(name = "id")
     @GeneratedValue
